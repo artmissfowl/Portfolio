@@ -1,0 +1,225 @@
+/*==================
+       Core
+====================*/
+
+div.header a {
+ color: #000;
+ text-decoration: none;
+}
+
+div.header h1 {
+ font-weight: bold;
+}
+
+div.header h2 {
+ color: #666666;
+ font-size: 14px;
+ font-weight: light;
+ margin-top: -13px;
+}
+
+div.header h3 {
+ color: #b50000;
+ margin-top: -6px;
+}
+
+div.header h6 {
+ color: #666;
+}
+
+div.header h6,
+div.header h3 {
+ font-size: 14px;
+}
+
+div.header i {
+ float: left;
+ font-size: 40px;
+ margin-right: 10px;
+ margin-top: 8px;
+}
+
+.headerContact {
+ margin-top: 13px;
+}
+
+div.header span {
+ color: #b50000;
+}
+
+@media (min-width: 768px) {
+ div.header {
+  background-color: #000;
+  color: #fff;
+ }
+ div.header h2 {
+  margin-left: 60px;
+ }
+ div.header a {
+  color: #fff;
+ }
+}
+
+.circle {
+ display: block;
+ border-radius: 1000px;
+ color: #fff;
+ height: 300px;
+ position: relative;
+ padding: 15px;
+ top: -80px;
+ width: 300px;
+ overflow: hidden;
+ margin: 30px auto;
+}
+
+.circle h2 {
+ margin-top: 60px;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.black {
+ background-color: #000;
+ color: #fff;
+}
+
+.grey {
+ background-color: #b2b2b2;
+ color: #000;
+}
+
+.red {
+ background-color: #b50000;
+ color: #fff;
+}
+
+section#about-me {
+ background-image: url(../../../images/texture/footer_lodyas.png);
+ color: #fff;
+ padding: 50px;
+}
+
+section#portfolio {
+ padding: 50px;
+}
+
+.portfolioItem {
+ display: block;
+ border-radius: 10px;
+ color: #fff;
+ height: 250px;
+ position: relative;
+ padding: 15px;
+ width: 100%;
+ overflow: hidden;
+}
+
+section#portfolio button {
+ border-radius: 20px;
+ margin-top: 10px;
+ width: 400px;
+}
+
+section#portfolio button:hover {
+ color: #fff;
+}
+
+section#offer {
+ color: #fff;
+ padding: 20px;
+ background-image: url(../../../images/texture/footer_lodyas.png);
+}
+
+section#blogPost {
+ padding: 30px;
+}
+
+.blogPost {
+ min-height: 400px;
+ background-color: #b2b2b2;
+}
+
+.blogHeader {
+ color: #fff;
+ padding: 5px;
+ height: 75px;
+ text-align: center;
+}
+
+.even {
+ background-color: #b50000;
+ background-image: url();
+}
+
+.odd {
+ background-color: #000;
+ background-image: url(../../../images/texture/footer_lodyas.png);
+}
+
+.blogContent {
+ padding: 20px;
+}
+
+.blogDivider {
+ height: 5px;
+ background-color: #fff;
+}
+
+.blogFooter {
+ padding: 10px;
+}
+
+.blogFooter button {
+ width: 120px;
+ border-radius: 20px;
+}
+
+footer {
+ color: #fff;
+ background-color: #000;
+ font-size: 25px;
+ height: 100%;
+ padding: 15px;
+}
+
+/*==================
+     Owl Carousel
+====================*/
+
+div#sepehrCarousel {
+ margin-top: -20px;
+}
+
+#sepehrCarousel .item img {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+
+/*==================
+       Bootstrap
+====================*/
+
+@media (min-width: 768px) {
+ .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+ }
+ .navbar .navbar-collapse {
+  text-align: center;
+ }
+}
+
+.navbar-inverse .navbar-toggle {
+ border-color: transparent;
+}
+
+a.btn-default {
+ color: #fff;
+ border-radius: 20px;
+ width: 100%;
+ border: #000;
+}
