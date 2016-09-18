@@ -1,4 +1,4 @@
-/*==================
+ /*==================
        Core
 ====================*/
 
@@ -104,6 +104,13 @@ section#portfolio {
  padding: 50px;
 }
 
+a.btn-default {
+  color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  border: #000;
+ }
+
 .portfolioItem {
  display: block;
  border-radius: 10px;
@@ -136,8 +143,9 @@ section#blogPost {
 }
 
 .blogPost {
- min-height: 400px;
+ min-height: 100%;
  background-color: #b2b2b2;
+ margin-bottom: 20px;
 }
 
 .blogHeader {
@@ -159,6 +167,7 @@ section#blogPost {
 
 .blogContent {
  padding: 20px;
+ height: 400px;
 }
 
 .blogDivider {
@@ -182,6 +191,7 @@ footer {
  height: 100%;
  padding: 15px;
 }
+
 
 /*==================
      Owl Carousel
@@ -213,13 +223,11 @@ div#sepehrCarousel {
  }
 }
 
-.navbar-inverse .navbar-toggle {
- border-color: transparent;
-}
-
-a.btn-default {
- color: #fff;
- border-radius: 20px;
- width: 100%;
- border: #000;
+@media (max-width: 998px) {
+ .blogContent {
+  height: 100%;
+ }
+ .navbar-inverse .navbar-toggle {
+  border-color: transparent;
+ }
 }
